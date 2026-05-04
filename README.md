@@ -48,7 +48,7 @@ tic-tac-toe/
 
 1. Clone the repository:
 
-git clone https://github.com/your-username/tic-tac-toe.git
+git clone https://github.com/Mohitify404/tic-tac-toe.git
 
 2. Open "index.html" in your browser
    OR use Live Server in VS Code
