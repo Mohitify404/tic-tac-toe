@@ -73,3 +73,9 @@ board.addEventListener('click',printer);
 
 
 })
+document.getElementById("darkModeBtn").addEventListener("click",()=>{
+const body=document.querySelector("body");
+body.className="dark";
+
+
+})
