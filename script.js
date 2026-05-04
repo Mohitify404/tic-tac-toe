@@ -27,7 +27,7 @@ const printer=(event)=>{
         boardarray[elemnt.id]='O';
         if(checkwinner()){
 const w=document.querySelector('.winning-message')
-w.innerHTML='winner is O'
+w.innerHTML='winner is O 🏆 '
 board.removeEventListener('click',printer);
 return;
     }
@@ -39,7 +39,7 @@ return;
                boardarray[elemnt.id]='X';
                        if(checkwinner()){
 const w=document.querySelector('.winning-message')
-w.innerHTML='winner is x'
+w.innerHTML='winner is x 🏆 '
 board.removeEventListener('click',printer);
 return;     
 // 👉 removeEventListener only stops future clicks
@@ -51,7 +51,7 @@ return;
 }
 if(totalturn==9){
 const w=document.querySelector('.winning-message')
-w.innerHTML='draw';
+w.innerHTML='draw 🤝';
 }
 
 
