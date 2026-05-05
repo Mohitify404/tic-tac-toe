@@ -79,3 +79,10 @@ body.className="dark";
 
 
 })
+
+document.getElementById("darkModeBtn").addEventListener("dblclick",()=>{
+const body=document.querySelector("body");
+body.className="light";
+
+
+})
