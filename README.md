@@ -67,5 +67,5 @@ git clone https://github.com/Mohitify404/tic-tac-toe.git
 
 🙌 Author
 
-Mohit Kumar
+Mohit 
 GitHub: https://github.com/Mohitify404
